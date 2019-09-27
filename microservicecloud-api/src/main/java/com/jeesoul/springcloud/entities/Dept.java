@@ -22,4 +22,9 @@ public class Dept implements Serializable {
         super();
         this.dname = dname;
     }
+
+//    public static void main(String[] args) {
+//        Dept dept = new Dept();
+//        dept.setDname("111").setDname("sds").setDeptno(1L);
+//    }
 }
