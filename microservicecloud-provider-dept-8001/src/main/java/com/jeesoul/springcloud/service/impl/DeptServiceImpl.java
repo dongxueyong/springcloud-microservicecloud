@@ -13,6 +13,7 @@ public class DeptServiceImpl implements DeptService {
 
     @Autowired
     private DeptDao deptDao;
+
     @Override
     public boolean addDept(Dept dept) {
         boolean b = deptDao.addDept(dept);

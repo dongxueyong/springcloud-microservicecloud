@@ -11,7 +11,7 @@ import java.io.Serializable;
 @SuppressWarnings("serial")
 @NoArgsConstructor
 @Data
-@Accessors(chain=true)
+@Accessors(chain = true)
 public class Dept implements Serializable {
 
     private Long deptno;    //主键
